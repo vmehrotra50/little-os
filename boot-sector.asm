@@ -1,6 +1,7 @@
-mov ah, 0x0e ; tty mode
-mov al, 'H'
-int 0x10
+mov ah, 0x0e ; int 10/ah = 0eh -> call the scrolling teletype BIOS routine
+
+mov al, 'H' ; put 'H' into register al
+int 0x10 ; software interrupt (system call) to BIOS 10H -> writes the character in AL to the console
 mov al, 'e'
 int 0x10
 mov al, 'l'
