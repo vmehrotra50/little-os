@@ -51,7 +51,7 @@ Boot Sector: the portion of a disk which contains machine code to be loaded into
     ![image](media/boot-sector-running.png)
       = the coolest hello world program I've ever written
 
-  - Just a note, for this one instead of directly editing the hex value in `boot-sector.bin`, I used assembly code found in the toturials and generated `boot-sector.bin` with NASM. Inspecting it with the Hex editor, it changed a bit, but the magic number stayed at the end of the file.
+  - Just a note, for this one instead of directly editing the hex value in `boot-sector.bin`, I used assembly code found in the book and generated `boot-sector.bin` with NASM. Inspecting it with the Hex editor, it changed a bit, but the magic number stayed at the end of the file.
   - But anyway, this is awesome -- a running boot sector. Kinda glad I took CS 2200 to help with debugging...
 
 ## Adding functionality to the boot sector
