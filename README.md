@@ -24,11 +24,6 @@ Using the following as a tutorial:
     - The boot loader
   - Boot loader: software that actually starts the boot process and loads the OS program into memory + starts running it
 
-#### Boot Sectors
-
-Boot Sector: the portion of a disk which contains machine code to be loaded into RAM and executed by BIOS.
-- Basic Input/Output System (BIOS): ROM chip that provides a basic interface to the computer
-
 #### 16-bit Real Mode
 
 - All x86 CPUs require a 16-bit mode (even if the processor may support 32-bit or 64-bit addressing) to ensure backwards compatibility (i.e. that modern CPU instruction sets are compatible with older CPUs)
